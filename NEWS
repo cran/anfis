@@ -1,0 +1,13 @@
+Changes in version 0.99.1
+----------------------------------------------------------------
+EXAMPLES
+
+  * A trained model was included in the package to reduce 
+  examples time execution. In addition, model training was tagged
+  with \donttest to maintain a complete example (Thanks to Prof Brian D Ripley)
+
+Changes in version 0.99.0
+----------------------------------------------------------------
+DOCUMENTATION
+
+    * `NEWS` file was added.

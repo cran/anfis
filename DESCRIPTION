@@ -1,0 +1,30 @@
+Package: anfis
+Type: Package
+Title: Adaptive Neuro Fuzzy Inference System in R
+Version: 0.99.1
+Date: 2015-01-16
+Author: Cristobal Fresno, Andrea S. Llera and Elmer A. Fernandez
+Maintainer: Cristobal Fresno <cfresno@bdmg.com.ar>
+Description: The package implements ANFIS Type 3 Takagi and Sugeno's fuzzy
+    if-then rule network with the following features: (1) Independent number of
+    membership functions(MF) for each input, and also different MF extensible
+    types. (2) Type 3 Takagi and Sugeno's fuzzy if-then rule (3) Full Rule
+    combinations, e.g. 2 inputs 2 membership funtions -> 4 fuzzy rules (4)
+    Hibrid learning, i.e. Descent Gradient for precedents and Least Squares
+    Estimation for consequents (5) Multiple outputs.
+URL: http://www.bdmg.com.ar
+License: GPL (>= 2)
+Depends: R (>= 3.0), methods, parallel
+Collate: 'MembershipFunction.R' 'MembershipFunction-show.R' 'BellMF.R'
+        'GaussianMF.R' 'NormalizedGaussianMF.R'
+        'MembershipFunction-evaluateMF.R' 'Anfis.R'
+        'Anfis-initialize.R' 'Anfis-getters.R' 'Anfis-printshow.R'
+        'Anfis-metrics.R' 'Anfis-package.R' 'Anfis-plotMF.R'
+        'Anfis-plot.R' 'Anfis-predict.R' 'Anfis-training.R'
+        'Anfis-trainSet.R' 'Anfis3-example.R'
+        'MembershipFunction-derivateMF.R' 'MembershipFunction-getset.R'
+        'MembershipFunction-print.R'
+NeedsCompilation: no
+Packaged: 2015-01-16 14:45:54 UTC; cristobal
+Repository: CRAN
+Date/Publication: 2015-01-16 16:22:46
